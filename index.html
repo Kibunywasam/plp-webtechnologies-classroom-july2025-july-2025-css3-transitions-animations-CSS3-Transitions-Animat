@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Animations with CSS & JS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1> Bringing Web Pages to Life </h1>
+
+  <!-- Part 1: CSS Animations & Transitions -->
+  <section id="part1">
+    <h2> Part 1: CSS3 Transitions & Animations</h2>
+    <button class="hover-btn">Hover Over Me!</button>
+    <div class="pulse-box">I Pulse Automatically!</div>
+    <div class="slide-in-box">I Slide In on Page Load!</div>
+  </section>
+
+  <hr>
+
+  <!-- Part 2: JavaScript Functions -->
+  <section id="part2">
+    <h2> Part 2: JavaScript Functions — Scope, Parameters & Return</h2>
+    <p>Open DevTools Console to see function demonstrations.</p>
+    <button onclick="demoFunctions()">Run Function Demo</button>
+  </section>
+
+  <hr>
+
+  <!-- Part 3: CSS + JS Combined -->
+  <section id="part3">
+    <h2> Part 3: Combining CSS Animations with JavaScript</h2>
+
+    <button id="animateBoxBtn">Animate the Box!</button>
+    <button id="toggleCardBtn">Flip the Card!</button>
+    <button id="toggleModalBtn">Show/Hide Modal</button>
+
+    <div id="animatedBox" class="box">I’m Animated via JS!</div>
+
+    <div class="card-container">
+      <div id="flipCard" class="card">
+        <div class="card-front">Front</div>
+        <div class="card-back">Back</div>
+      </div>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <h3> Modal Popup!</h3>
+        <p>This modal slides and fades in/out using JS + CSS.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
